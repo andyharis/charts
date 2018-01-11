@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tinkoff</title>
+    <link rel="stylesheet" href="/css/main.css"/>
+</head>
+<body>
+<div class="content">
+    <div>
+        <ul class="menu">
+            <li class="item">
+                <a href="/#temperature">Temperature</a>
+            </li>
+            <li class="item">
+                <a href="/#precipitation">Precipitation</a>
+            </li>
+        </ul>
+    </div>
+    <div>
+        <div>
+            <select id="min"></select>
+            <select id="max"></select>
+        </div>
+        <canvas id="chart" class="chart" width="800" height="600" style="background-color: aliceblue"></canvas>
+    </div>
+</div>
+<script src="/js/helpers.js"></script>
+<script src="/js/db.js"></script>
+<script src="/js/api.js"></script>
+<script src="/js/chart.js"></script>
+<script src="/js/main.js"></script>
+</body>
+</html>

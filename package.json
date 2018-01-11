@@ -1,0 +1,14 @@
+{
+  "name": "tinkoff",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server"
+  },
+  "author": "Andyharis",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
